@@ -36,12 +36,23 @@
 
 ---
 
-# 사진
+# AI_Based_Omni_Wheel_Robot 외관사진
 
 | | |
 |:-----------------:|:-----------------:|
 | ![](/img/002.jpg) |  ![](/img/003.jpg) | 
 | ![](/img/004.jpg) | ![](/img/005.jpg) | 
+
+---
+
+# AI_Based_Omni_Wheel_Robot 보드/내부 사진
+
+
+---
+
+# AI_Based_Omni_Wheel_Robot 회로
+
+
 
 
 
