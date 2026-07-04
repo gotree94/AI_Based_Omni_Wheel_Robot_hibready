@@ -71,14 +71,13 @@
 
 | | |
 |:-----------------:|:-----------------:|
-| ![](/img/200.jpg) | ![](/img/201.jpg) |
-| ![](/img/202.jpg) | ![](/img/203.jpg) |
-| ![](/img/204.jpg) | ![](/img/205.jpg) |
-| ![](/img/206.jpg) | ![](/img/207.jpg) |
-| ![](/img/208.jpg) | ![](/img/209.jpg) |
-| ![](/img/210.jpg) | ![](/img/211.jpg) |
-| ![](/img/212.jpg) | ![](/img/213.jpg) |
-| ![](/img/214.jpg) |  |
+| ![](/img/201.jpg) | ![](/img/202.jpg) |
+| ![](/img/203.jpg) | ![](/img/204.jpg) |
+| ![](/img/205.jpg) | ![](/img/206.jpg) |
+| ![](/img/207.jpg) | ![](/img/208.jpg) |
+| ![](/img/209.jpg) | ![](/img/210.jpg) |
+| ![](/img/211.jpg) | ![](/img/212.jpg) |
+| ![](/img/213.jpg) | ![](/img/214.jpg) |
 
 
 # AI_Based_Omni_Wheel_Robot 회로
