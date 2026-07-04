@@ -47,6 +47,28 @@
 
 # AI_Based_Omni_Wheel_Robot 보드/내부 사진
 
+| | |
+|:-----------------:|:-----------------:|
+| ![](/img/101.jpg) | ![](/img/102.jpg) | 
+
+![](/img/103.jpg)
+![](/img/104.jpg)
+![](/img/105.jpg)
+![](/img/106.jpg)
+![](/img/107.jpg)
+![](/img/108.jpg)
+![](/img/109.jpg)
+![](/img/110.jpg)
+![](/img/111.jpg)
+![](/img/112.jpg)
+![](/img/113.jpg)
+![](/img/114.jpg)
+![](/img/115.jpg)
+![](/img/116.jpg)
+![](/img/117.jpg)
+![](/img/118.jpg)
+![](/img/119.jpg)
+
 
 ---
 
