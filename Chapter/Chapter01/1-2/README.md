@@ -200,7 +200,25 @@ C:\AI_OMNIWHEEL
 
 (21) 'detc_class.txt' 파일을 생성한다. 'detect_class.txt'  파일에는 데이터 오노테이션 과정에서 사용한 레이블을 목록으로 작성한다. 어노테이션에서 사용한 레이블과 다르게 입력될 경우 다음('학습 데이터 제작하기')에서 에러가 발생한다.
 
+* predefined_classes.txt (프로그램 설치 위치에 \windows_v1.8.1\data predefined_classes.txt 파일에 저장하면됨)
 
+```
+dog
+person
+cat
+tv
+car
+meatballs
+marinara sauce
+tomato soup
+chicken noodle soup
+french onion soup
+chicken breast
+ribs
+pulled pork
+hamburger
+cavity
+```
 
 ## 1.2.2 학습용 데이터 제작하기
 
