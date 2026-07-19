@@ -228,21 +228,8 @@ C:\AI_OMNIWHEEL
 * predefined_classes.txt (프로그램 설치 위치에 \windows_v1.8.1\data predefined_classes.txt 파일에 저장하면됨)
 
 ```
-dog
+animal
 person
-cat
-tv
-car
-meatballs
-marinara sauce
-tomato soup
-chicken noodle soup
-french onion soup
-chicken breast
-ribs
-pulled pork
-hamburger
-cavity
 ```
 
 ---
@@ -454,6 +441,20 @@ detection_train.dispose()
 (1) 동작을 실행하기 위해 상단의 'Restart' 버튼을 선택한다.
 
 ![](3007.png)
+
+(2) 학습이 진행되면 과정이 표시된다.
+
+* 학습이 시작된다.
+
+* 학습이 완료되었다.
+
+(3) 'models' 이름의 학습 모델이 저장된 폴더가 생성된다.
+
+(4) 'models' 폴더에는 여러 개의 파일이 생성되어 있다.
+
+   * checkpoint : 학습 모델의 체크포인트 번호의 기록이 저장된 파일이다.
+   * model.skpt* : 모델에 대한 정보를 담고 있기 때문에 재학습이 가능하다. 모델 실행기 필요 없는 정보까지 가지고 있어서 무섭다.
+
 
 
 ## 1.2.4 객체 감지 추론 그래프 제작하기
