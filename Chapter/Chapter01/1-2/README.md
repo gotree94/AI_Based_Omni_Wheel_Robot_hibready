@@ -388,6 +388,66 @@ from bready.object_detection_tools import ObjectDetector
 detection_trainer = ObjectDetector.Trainer()
 ```
 
+* 'setDataDirectory()' 함수로 학습 데이터를 저장할 경로를 설정한다. 폴터 내 'training_data' 폴더가 없는 경우 자동으로 생성된다.
+
+```
+detection_trainer.setDataDirectory("training_data")
+```
+
+* 'setSaveModelDirectory()' 함수로 학습 데이터를 저장할 경로를 설정한다. 폴터 내 'training_data' 폴더가 없는 경우 자동으로 생성된다.
+
+```
+detection_trainer.setDataDirectory("models")
+```
+
+* 'setMaxStep()' 함수로 학습할 횟수를 입력한다.
+* 'setBathSize()' 함수로 학습에 사용할 이미지의 수량을 설정한다.
+
+```
+detection_trainer.setMaxStep(200)
+detection_trainer.setBathSize(24)
+```
+
+* 'setModelType()' 함수로 학습에 사용할 알고르짐(신경망)을 설정한다. 여기서는 'SSD MobileNet V1'을 사용한다.
+* 이는 객체감지를 위한 알고리즘 중 하나이다.
+
+```
+detection_trainer.setModelType(ObjectDetector.ModelType.SSD_MOBILENET_V1)
+```
+
+* 'setAugmentation_Option()' 함수를 사용하여 전처리 옵션을 설정한다.
+* 전처리 옵셥은 학습 이미지에 인위적으로 변화를 주어 학습에 사용한다.
+* 옵션을 사용하지 않을 때에는 "True"를 "Fail"로 변경할 수 있다.
+   * SSD_RANDOM_CROP : 인위적으로 자르기
+   * HORIZONTAL_FLIP : 좌우 반전
+   * VERTICAL_FLIP : 상하 반전
+   * RANDOM_BRIGHTNESS : 인위적으로 밝기 조절
+
+```
+detection_train.setAugementation_Option(ObjectDetector.Image_Augmentation.SSD_RANDOM_CROP, True)
+detection_train.setAugementation_Option(ObjectDetector.Image_Augmentation.SSD_HORIZONTAL_FLIP, True)
+```
+
+* 'setPretrainedModel()' 함수로 사전 학습된 'coco' 모델을 사요하여 학습시 지능을 더 높여준다.
+
+```
+detection_train.setPretrainedModel('coco')
+```
+
+* 'train()' 함수로 학습을 시작한다. 'continue_training'을 'False'로 하여 이어서 학습하지 않도록 설정하고,
+* 'overwrite'를 'True'로 하여 이미 'models' 폴더가 있는 경우 내용을 삭제 후 학습을 진행한다.
+
+```
+detection_train.train(continue_training=False, overwrite=True)
+```
+
+* 'dispose()' 함수로 세션을 초기화 시킨다.
+
+```
+detection_train.dispose()
+```
+  
+
 
 ### 3) 실행과 결과
 
