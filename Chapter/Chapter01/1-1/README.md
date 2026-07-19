@@ -134,7 +134,8 @@
     * 저장된 사진에서 객체를 라벨링 합니다. 라벨링 작업은 객체의 정잡을 부여하는 과정으로 사람이 수작업으로 진행합니다.
       * https://github.com/HumanSignal/labelImg
       * https://github.com/HumanSignal/labelImg/releases
-      * https://github.com/HumanSignal/labelImg/archive/refs/tags/v1.8.1.zip
+      * https://github.com/tzutalin/labelImg/files/2637965/windows_v1.8.0.zip
+      * https://github.com/tzutalin/labelImg/files/2638199/windows_v1.8.1.zip
 
       * predefined_classes.tx
       ```
