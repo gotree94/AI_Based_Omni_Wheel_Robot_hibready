@@ -171,8 +171,6 @@
 
 ![](009.png)  ![](010.png)
 
-
-
 ---
 
 # 작업하기 전에 먼저 해볼 수 있는 좀더 쉬운 학습
@@ -180,9 +178,7 @@
 ### [구글 티처블 머신 (Teachable Machine)](https://teachablemachine.withgoogle.com/) : teachablemachine.withgoogle.com
 
 
-![](021.png)
-
-![](022.png)
+<img src="021.png" width ="30%"> <img src="022.png" width ="30%">
 
 ![](1001.png)
 
