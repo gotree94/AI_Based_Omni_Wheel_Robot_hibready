@@ -121,8 +121,27 @@
 
 ### 1.1.3 이미지 데잍 셋 제작 프로그램
 
+   * 객체 감지 학습에는 사용되는 데이터마다 객체의 정보가 필요하다.
+   * 이를 위해 수집한 데이터에 대한 이미지 데이터 셋 제작을 진행한다.
+   * 이미지 데이터 셋 제자작을 어노테이션(Annotation)이라 하며, 어노케이션을 수집한 데이터에 레이블과 그 정보를 설정하는 작업이다.
+   * 수집한 데이터에서 해당 객체에 바운딩(Bounding) 박스를 상성하고 레이블을 입력하여 저장 하면 어노테이션 파일이 생성됩니다.
+   * 어노테이션 파일에는 객체의 위치에 대한 정보를 함께 제공하기 위해서 바운딩 박스의 좌측 상단 좌표(x,y), 우측 하단 좌표(x,y) 값과 객체의 레이블(label)로 구성되어 있다.
 
-#### (1) 사이트에 접속하여 '데이터 셋 제작 프고르ㅐㅁ을 다운로드 한다.
+#### (1) 사이트에 접속하여 데이터 셋 제작 프고르램을 다운로드 한다.
+
+  * kaggle 로부터 데이터 다움로드
+  * labelimg.exe 다운로드
+    * 저장된 사진에서 객체를 라벨링 합니다. 라벨링 작업은 객체의 정잡을 부여하는 과정으로 사람이 수작업으로 진행합니다.
+      * https://github.com/HumanSignal/labelImg
+      * https://github.com/HumanSignal/labelImg/releases
+      * https://github.com/HumanSignal/labelImg/archive/refs/tags/v1.8.1.zip
+
+      * predefined_classes.tx
+      ```
+      dog
+      cat
+      ```
+
 
 
 #### (2) 다운로드 받은 파일을 압축 해제 한다.
@@ -133,6 +152,67 @@
 ---
 
 ### [글 티처블 머신 (Teachable Machine)](https://teachablemachine.withgoogle.com/) : teachablemachine.withgoogle.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
