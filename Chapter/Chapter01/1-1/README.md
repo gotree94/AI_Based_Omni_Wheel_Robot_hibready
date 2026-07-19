@@ -178,7 +178,7 @@
 ### [구글 티처블 머신 (Teachable Machine)](https://teachablemachine.withgoogle.com/) : teachablemachine.withgoogle.com
 
 
-<img src="021.png" width ="30%"> <img src="022.png" width ="30%">
+<img src="021.png" width ="30%"> <img src="022.png" width ="28%">
 
 ![](1001.png)
 
