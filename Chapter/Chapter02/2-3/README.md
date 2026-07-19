@@ -72,6 +72,40 @@ camera = PyCamera.URLCamera(
 
 (6) 'Tester()' 함수로 객체감지의 최적화 모델과 클래스 파일의 갱로를 설정하여 'obj_model' 객체로 저장한다.
 
+```
+obj_model = ObjectDetector.Tester(
+  'optimization',
+  'detection_classes.txt',
+  ["image_tensor"]
+)
+```
+
+(7) 객체의 주점을 구하는 'norm()' 함수를 정의한다.
+* 'sqrt() 함수를 이용하여 감지된 객체의 X,Y 좌표의 중점을 계산하여 반환한다.
+
+```
+def norm(vec):
+  return np.sqrt(vec[0]**2 + vec[1]**2)
+```
+
+(8) 가장 가까운 거리의 감지 대상을 찾는 'closest_detection()' 함수를 정의한다.
+* 가장 가까운 감지 대상 값을 저장하기 위한 변소 'closest_detection'을 초기화 한다.
+
+```
+def closest_detection(detections):
+  closest_detection = None
+```
+
+* 감지된 대상의 수만큰 반복하여 감지된 객체에 대한 X,Y의 좌료를 구한 뒤'center'에 저장한다.
+
+```
+for det in detections:
+  center = (det["detection_center_point_x"], det["detection_boxes"][2])
+```
+
+* 만약 'closest_detection'의 데이터가 없을 겨우
+
+* 
 
 ---
 
