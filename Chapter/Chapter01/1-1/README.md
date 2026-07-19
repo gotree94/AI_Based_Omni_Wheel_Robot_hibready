@@ -86,7 +86,7 @@
 #### 1. [Kaggle](https://www.kaggle.com/) (캐글) – 가장 쉽고 빠르게 다운로드
 
    * 데이터 분석 및 AI 경진대회 플랫폼인 캐글에서 'Dog vs Cat'을 검색하면 전처리된 데이터셋을 바로 받을 수 있습니다.
-      * Dogs vs. Cats (Kaggle Dataset): 과거 마이크로소프트가 진행한 콘테스트 데이터로, 고양이와 강아지 사진 총 25,000장이 포함되어 있습니다.
+      * [Dogs vs. Cats](https://www.kaggle.com/code/fareselmenshawii/cats-vs-dogs-classification) (Kaggle Dataset): 과거 마이크로소프트가 진행한 콘테스트 데이터로, 고양이와 강아지 사진 총 25,000장이 포함되어 있습니다.
          * 이미지 분류(Classification) 입문용으로 가장 많이 쓰입니다.
       * 추천 이유: 웹 브라우저나 Kaggle API를 통해 회원가입 후 원클릭으로 쉽게 다운로드할 수 있으며, 관련 주피터 노트북(코드) 예제가 풍부합니다.
 
