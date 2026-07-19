@@ -17,6 +17,7 @@ https://blog-ko.superb-ai.com/object-tracking-technology-for-video-analysis/
 
 <p align="center">
   <img src="000.gif">
+  <br>
 [그림2] 자동차 객체 추적
 </p>
 
@@ -27,6 +28,7 @@ https://blog-ko.superb-ai.com/object-tracking-technology-for-video-analysis/
 
 <p align="center">
   <img src="028.png">
+  <br>
 [그림 3] 객체 기준선 감지 카운팅
 </p>
 
