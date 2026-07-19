@@ -15,6 +15,8 @@ https://blog-ko.superb-ai.com/object-tracking-technology-for-video-analysis/
 
 * 객체 추적 기술은 다양한 방법(알고리즘)으로 사용되고 있다. [그림1]과 같이 객체 추적 기술을 이용해 감지된 객체의 위치 변화를 계산단 다음 객체의 행동 패턴을 분석하여 객체가 다음 행동할 '예측' 알고리즘으로 사용한다.
 
+![](000.gif)
+
 [그림2] 자동차 객체 추적
 
 
