@@ -172,71 +172,35 @@
 ![](009.png)  ![](010.png)
 
 
-#### (7) 
-
-
 
 ---
+
+# 작업하기 전에 먼저 해볼 수 있는 좀더 쉬운 학습
 
 ### [구글 티처블 머신 (Teachable Machine)](https://teachablemachine.withgoogle.com/) : teachablemachine.withgoogle.com
 
 
+![](021.png)
 
+![](022.png)
 
+![](1001.png)
 
+![](1002.png)
 
+![](1003.png)
 
+![](1004.png)
 
+![](1005.png)
 
+![](1006.png)
 
+![](1007.png)
 
+![](1008.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![](1009.png)
 
 
 
