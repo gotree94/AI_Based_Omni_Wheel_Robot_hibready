@@ -316,6 +316,28 @@ from bready.object_detection_tools import ObjectDetector
 detection_trainer = ObjectDetector.Trainer()
 ```
 
+* 'setImageDirectory()' 함수로 학습에 사용할 이미지 데이터 경로를 설정한다.
+* 이때, 경로는 앞에서 생성한 'images' 폴더가 있는 경로이어야 하며, 경로에서 ```"\"```는 ```"/"```로 변경하여야 한다.
+
+```
+detection_trainer.setImageDirectory("C:/AI_Omniwheel/detect1_dataset/images")
+detection_trainer.setAnnotationDirectory("C:/AI_Omniwheel/detect1_dataset/annotations")
+detection_trainer.setClassDirectory("C:/AI_Omniwheel/detect1_dataset/detect_class.txt")
+```
+
+* 'setDataDirectory' 함수로 학습 데이터를 저장할 경로를 설정한다. 폴터 내 'training_data' 폴더가 없는 경우 자동으로 생성된다.
+
+```
+detection_trainer.setDataDirectory("training_data")
+```
+
+* 'generateTFRecoeds()' 함수로 학습 데이터를 제작한다.
+
+```
+detection_trainer.generateTFRecoeds()
+```
+
+
 ### 3) 실행과 결과
 
 (1) 동작을 실행하기 위해 상단의 'Restart' 버튼을 선택한다.
