@@ -15,14 +15,18 @@ https://blog-ko.superb-ai.com/object-tracking-technology-for-video-analysis/
 
 * 객체 추적 기술은 다양한 방법(알고리즘)으로 사용되고 있다. [그림1]과 같이 객체 추적 기술을 이용해 감지된 객체의 위치 변화를 계산단 다음 객체의 행동 패턴을 분석하여 객체가 다음 행동할 '예측' 알고리즘으로 사용한다.
 
-![](000.gif)
+<p align="center">
+  <img src="000.gif">
+</p>
 
 [그림2] 자동차 객체 추적
 
 
 * 다른 방법으로 사용 예는 Object Tracking Line Counting 기술이다. [그림 3]과 같이 감지된 객체를 추적하여 입력된 기준선에 적용하여 감지된 객체(차량)이 기준선에 근접하거나 기준선을 지나칠 경우를 영상의 각 프레임별 데이터를 입력 받아 비교하여 숫자를 증가, 감소시키는 방법으로 사용이 가능하다.
 
-![](028.png)
+<p align="center">
+  <img src="028.png">
+</p>
 
 [그림 3] 객체 기준선 감지 카운팅
 * https://www.youtube.com/watch?v=f6Ad2FMyYcM
