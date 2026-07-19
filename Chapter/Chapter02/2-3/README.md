@@ -55,7 +55,7 @@ from bready.object_detection_tools import ObjectDetector
 (4) 화면에 위젯을 사용하기 위해 'widgets'를 추가한다.
 * 현재 화면에 표시하기 위해 'IPython.display' 모듈을 추가한다.
 
-'''
+```
 import ipywidgets.widgets as widgets
 import IPython.display
 ```
@@ -108,53 +108,6 @@ ros의 통신으로 각종 센서, PSD, 베터리 등의 하드웨어 정보가 
 터미널에서 동작을 정지하기 위해 '[Ctrl] + C' 키를 눌러 동작을 종료한다.
 
 (9) Jupyter 동작을 종료하면 상단의 'Stop'버튼을 선택한다.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
