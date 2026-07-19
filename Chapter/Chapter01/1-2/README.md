@@ -299,10 +299,7 @@ cd AI_Omniwheel>jupyter notebook
 
 ![](3006.png)
 
-![](3007.png)
-
 ### 2) 프로그램 작성
-
 
 * 시스템 운영을 위해 'os' 모듈을 추가한다.
 * 인공지능 학습에 필요한 파이썬 모듈이 설치된 'bready' 모듈 중 객체감지에 필요한 'objectDetector' 모듈을 추가한다.
@@ -321,25 +318,60 @@ detection_trainer = ObjectDetector.Trainer()
 
 ### 3) 실행과 결과
 
-(1) 
+(1) 동작을 실행하기 위해 상단의 'Restart' 버튼을 선택한다.
 
+![](3007.png)
 
+(2) 학습 데이터 제작이 완료되면 실행 결과가 나타난다.
+
+(3) 'training_data' 이름의 학습 데이터가 저장된 폴더가 생성된다.
+
+(4) 'training_data' 폴더에는 4개의 학습 데이터 파일이 생성되어 있다.
+
+   * detection_classes.txt : 객체 감지에 필요한 목록
+   ```
+	preson
+    animal
+   ```
+
+   * train.csv : 어노테이션 파일이 통합된 자료이다.
+
+   * train.record : 'train.csv' 데이터를 Tensorflow에서 사용하는 학습용 데이터 형식으로 변환된 파일이다(TFRecord 파일)
+
+   * train.label.pbtxt : Tensorflow 에서 읽어오는 객체 정보에 대한 label 파일이다.
 
 
 ## 1.2.3 객체 감지 학습하기
 
 ### 1) 프로그램 파일 생성
 
+(1) 우측의 'New' 버튼을 눌러 'Python 3'를 생성한다.
 
-
+(2) 상단 'Untitled'를 선택하여 실습 제목을 번경한다. (이름 : example-002)
 
 ### 2) 프로그램 작성
 
+* 시스템 운영을 위해 'os' 모듈을 추가한다.
+* 인공지능 학습에 필요한 파이썬 모듈이 설치된 'bready' 모듈 중 객체감지에 필요한 'objectDetector' 모듈을 추가한다.
 
+```
+import os
+from bready.object_detection_tools import ObjectDetector
+```
+
+
+* 객체감지 학습을 위해 객체를 'detection_trainer'로 생성한다.
+
+```
+detection_trainer = ObjectDetector.Trainer()
+```
 
 
 ### 3) 실행과 결과
 
+(1) 동작을 실행하기 위해 상단의 'Restart' 버튼을 선택한다.
+
+![](3007.png)
 
 
 ## 1.2.4 객체 감지 추론 그래프 제작하기
