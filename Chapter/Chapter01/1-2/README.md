@@ -41,6 +41,8 @@
    * 방법: Open Images Dataset 사이트의 'Explore' 메뉴로 이동합니다.
    * 특징: Person, Dog, Cat 등 원하는 클래스를 선택한 뒤 이미지들을 보면서 필요한 만큼만 골라 다운로드할 수 있습니다. 구글이 검증한 고품질 바운딩 박스 좌표가 함께 제공된다는 장점이 있습니다.
 
+4. https://unsplash.com/ko
+
 ---
 
 
