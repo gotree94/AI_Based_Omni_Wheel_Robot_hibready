@@ -252,6 +252,7 @@ cavity
 1. 아나콘다 다운로드 링크
    * 아래 공식 웹사이트에서 본인의 운영체제(Windows/Mac/Linux)에 맞는 최신 버전 인스톨러를 다운로드할 수 있습니다.
    * [아나콘다 공식 다운로드 페이지 (Anaconda Distribution)](https://www.anaconda.com/download)
+   * Anaconda Distribution : https://repo.anaconda.com/archive/Anaconda3-2025.12-2-Windows-x86_64.exe
 
 2. 아나콘다를 추천하는 이유
    * 원클릭 설치: 파이썬(Python)과 주피터 노트북뿐만 아니라, 향후 AI 학습이나 로봇 제어에 필요한 핵심 데이터 분석 라이브러리(NumPy, Pandas 등)가 한 번에 설치됩니다.
