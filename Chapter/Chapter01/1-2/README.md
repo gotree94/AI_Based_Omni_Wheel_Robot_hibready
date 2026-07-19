@@ -517,14 +517,68 @@ detection_trainer.freeze_graph(checkpoint=200, output_directory='recognition',ov
 
 ### 1) 프로그램 파일 생성
 
-
 (1) 우측의 'New' 버튼을 눌러 'Python 3'를 생성한다.
 
 (2) 상단 'Untitled'를 선택하여 실습 제목을 번경한다. (이름 : example-002)
 
 ### 2) 프로그램 작성
 
+* 시스템 운영을 위해 'os' 모듈을 추가한다.
+* 영상처리를 위해 'cv2' 모듈을 추가 한다.
+* 시간 지연을 위해 'time' 모듈을 추가한다.
 
+```
+import os
+import cv2
+import time
+```
+
+* 카메라 영상을 사용하기 위해 'PyCamera' 모듈을 추가한다.
+* 인공지능 학습에 필요한 파이썬 코듈이 설치된 'bready' 모듈 중 객체감지에 필요한 'objectDetector' 모듈을 추가한다.
+
+```
+import bready.camera_utils.PyCamera as PyCamera
+from bready.object_detection_tools import ObjectDetector
+```
+
+* 화면에 위셋을 사용하기 위해 'widgets' 모듈을 추가한다.
+* 현재 화면에 표시하기 위해 'IPython.display' 모듈을 추가한다.
+
+```
+import ipywidgets.widgets as widgets
+import IPython.display
+```
+
+* 'USBCamera()' 함수로 PC와 연결된 카메라 영상의 이미지 데이터를 받아'camera' 객체로 선언한다.
+
+```
+camera = PyCamera.USBCamera(0)
+```
+
+* 'ObjectDetector.Tester()' 함수로 객체감지의 최종 모델과 클래스 파일의 경로를 설정하여 'obj_model' 객체로 저장한다.
+
+```
+obj_model =
+
+```
+
+
+* 임베디드 시스템에서 이밎 처리과정과 Jupyter 커널을 맞춰주기 위한 'widget' 모듈을 사요하여 'image_widget' 객체에 'jpeg' 포멧의 이미지를 저장한다.
+* 카메라로 읽은 이미지 데이터를 출력한다.
+
+```
+image_widget = widget.Image("format='jpeg')
+IPython.display.display(image_widget)
+```
+
+* while() 문으로 반복하여 동작되도록 한다.
+	*  프로그램이 시작되면 실행된다.
+
+```
+while(True) :
+	try :
+		image = camera.get_frame()
+```
 
 
 ### 3) 실행과 결과
