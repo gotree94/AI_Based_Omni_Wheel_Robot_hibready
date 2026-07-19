@@ -150,6 +150,25 @@
 
 #### (3) labelimg v1.8.1.zip 압축을 해제하고 폴더의 "labelimg.exe" 파일을 실행한다.
 
+![](006.png)
+
+[데이터 셋 제작 프로그램]
+
+
+#### (4) 프로그램이 실행되면 아래와 같이 화면이 나타난다.
+
+![](006.png)
+
+[데이터 셋 제작 프로그램]
+
+#### (5) 
+
+#### (6) 
+
+#### (7) 
+
+
+
 ---
 
 ### [구글 티처블 머신 (Teachable Machine)](https://teachablemachine.withgoogle.com/) : teachablemachine.withgoogle.com
