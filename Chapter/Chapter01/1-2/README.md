@@ -297,13 +297,27 @@ cd AI_Omniwheel>jupyter notebook
 
 ![](3005.png)
 
+![](3006.png)
+
+![](3007.png)
 
 ### 2) 프로그램 작성
 
-(1) 
+
+* 시스템 운영을 위해 'os' 모듈을 추가한다.
+* 인공지능 학습에 필요한 파이썬 모듈이 설치된 'bready' 모듈 중 객체감지에 필요한 'objectDetector' 모듈을 추가한다.
+
+```
+import os
+from bready.object_detection_tools import ObjectDetector
+```
 
 
+* 객체감지 학습을 위해 객체를 'detection_trainer'로 생성한다.
 
+```
+detection_trainer = ObjectDetector.Trainer()
+```
 
 ### 3) 실행과 결과
 
