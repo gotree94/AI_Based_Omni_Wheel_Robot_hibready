@@ -144,14 +144,14 @@
 
 
 
-#### (2) 다운로드 받은 파일을 압축 해제 한다.
+#### (2) 데이터셋 파일을 다운로드 받고 파일을 압축 해제 한다.
 
 
-#### (3) 폴더의 
+#### (3) labelimg v1.8.1.zip 압축을 해제하고 폴더의 "labelimg.exe" 파일을 실행한다.
 
 ---
 
-### [글 티처블 머신 (Teachable Machine)](https://teachablemachine.withgoogle.com/) : teachablemachine.withgoogle.com
+### [구글 티처블 머신 (Teachable Machine)](https://teachablemachine.withgoogle.com/) : teachablemachine.withgoogle.com
 
 
 
