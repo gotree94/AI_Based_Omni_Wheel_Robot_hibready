@@ -461,17 +461,9 @@ detection_train.dispose()
 
 ### 1) 프로그램 파일 생성
 
-(1) 우측의 'New' 버튼을 눌러 'Python 3'를 선택한다.
+(1) 우측의 'New' 버튼을 눌러 'Python 3'를 생성한다.
 
-![](3003.png)
-
-(2) 상단 'Untitled'를 선택하여 실습 제목을 번경한다.
-
-![](3004.png)
-
-![](3005.png)
-
-![](3006.png)
+(2) 상단 'Untitled'를 선택하여 실습 제목을 번경한다. (이름 : example-002)
 
 
 ### 2) 프로그램 작성
@@ -515,12 +507,20 @@ detection_trainer.freeze_graph(checkpoint=200, output_directory='recognition',ov
 
 (3) 'recognition'이름이 추론 그래프가 저장된 폴더가 생성된다.
 
+(4) 'recognition' 폴더에는 다음과 같은 폴더들이 생성되어 있다.
+
+   *  frozen_interence_graph.pb : 추론 그래프, 학습이 완료된 그래프에 대한 내용을 export 해놓은 파일러서 이 파일을 다시 로딩하여 예측(prediction)을 수행한다.
+   *  model.ckpt*** : 학습모델에 대한 정보가 담긴 파일이다.
+
+
 ## 1.2.5 객체 감지 추론하기
 
 ### 1) 프로그램 파일 생성
 
 
+(1) 우측의 'New' 버튼을 눌러 'Python 3'를 생성한다.
 
+(2) 상단 'Untitled'를 선택하여 실습 제목을 번경한다. (이름 : example-002)
 
 ### 2) 프로그램 작성
 
