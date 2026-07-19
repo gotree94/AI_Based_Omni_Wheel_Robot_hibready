@@ -73,7 +73,7 @@ C:\AI_OMNIWHEEL
 
 (1) 'labelimg.exe' 파일을 실행한다.
 
-![](35.png)
+![](035.png)
 
 (2) 왼쪽 툴바의 'Change Save Dir' 버튼을 선택한다.
 
