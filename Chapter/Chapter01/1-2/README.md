@@ -461,17 +461,59 @@ detection_train.dispose()
 
 ### 1) 프로그램 파일 생성
 
+(1) 우측의 'New' 버튼을 눌러 'Python 3'를 선택한다.
 
+![](3003.png)
+
+(2) 상단 'Untitled'를 선택하여 실습 제목을 번경한다.
+
+![](3004.png)
+
+![](3005.png)
+
+![](3006.png)
 
 
 ### 2) 프로그램 작성
 
+* 시스템 운영을 위해 'os' 모듈을 추가한다.
+* 인공지능 학습에 필요한 파이썬 모듈이 설치된 'bready' 모듈 중 객체감지에 필요한 'objectDetector' 모듈을 추가한다.
 
+```
+import os
+from bready.object_detection_tools import ObjectDetector
+```
+
+
+* 객체감지 학습을 위해 객체를 'detection_trainer'로 생성한다.
+
+```
+detection_trainer = ObjectDetector.Trainer()
+```
+
+* 'setSaveModelDirectory()' 함수로 학습 데이터를 저장할 경로를 설정한다. 폴터 내 'training_data' 폴더가 없는 경우 자동으로 생성된다.
+
+```
+detection_trainer.setDataDirectory("models")
+```
+
+* 'freeze_graph()' 함수로 학습 모델을 내보낸다. 'checkpoint'는 앞에서 학습 모델의 체크포인트 번호를 입력하고, 'output_directory'에는 내보낸 학습 모델을 저장할 경로를 설정한다.
+* 폴더 내 'recofnition' 폴더가 없는 경우 자동으로 생성된다. 또한 'overwrite'를 'True'로 하여 이미 'recognition' 폴터가 있는 경우 내용을 삭제 후 학습을 진행한다.
+
+```
+detection_trainer.freeze_graph(checkpoint=200, output_directory='recognition',overwrite=True)
+```
 
 
 ### 3) 실행과 결과
 
+(1) 동작을 실행하기 위해 상단의 'Restart' 버튼을 선택한다.
 
+![](3007.png)
+
+(2) 추론 그래프 생성이 완료되면 실행 결과가 나타난다.
+
+(3) 'recognition'이름이 추론 그래프가 저장된 폴더가 생성된다.
 
 ## 1.2.5 객체 감지 추론하기
 
