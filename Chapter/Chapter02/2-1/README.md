@@ -4,3 +4,17 @@
 
 ## 2.1 준비하기
 
+![](001.png)
+
+![](002.png)
+
+![](003.png)
+
+
+객체 추적
+
+
+
+
+https://blog-ko.superb-ai.com/object-tracking-technology-for-video-analysis/
+
