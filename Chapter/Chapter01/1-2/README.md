@@ -287,14 +287,13 @@ cd AI_Omniwheel>jupyter notebook
 
 (2) 실습용 포터를 생성 후 이동한다.
 
-![](3003.png)
-
 (3) 우측의 'New' 버튼을 눌러 'Python 3'를 선택한다.
 
-![](3004.png)
-
+![](3003.png)
 
 (4) 상단 'Untitled'를 선택하여 실습 제목을 번경한다.
+
+![](3004.png)
 
 ![](3005.png)
 
