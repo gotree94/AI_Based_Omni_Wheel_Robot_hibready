@@ -80,10 +80,18 @@ C:\AI_OMNIWHEEL
 
 (3) 어노테이션 파일이 저장될 위치를 선택 후 '폴더 선택' 버튼을 클릭한다.
 
+```
+폴더 위치 : C:\AI_Omniwheel\detect1_dataset\annotations
+```
+
 
 (4) 왼쪽 툴바 의 'Open Dir' 버튼을 선택한다.
 
 (5) 데이터가 저장된 위치를 선택 후 '폴더 선택' 버튼을 클릭한다.
+
+```
+폴더위치 : C:\AI_Omniwheel\detect1_dataset\images
+```
 
 (6) 작업영역에 이미지가 표시된다.
 
@@ -126,6 +134,69 @@ C:\AI_OMNIWHEEL
 
 (20) 어노테이션 파일을 보면 다음과 같이 이미지에 대한 정보와 어노테이션 작업한 내용이 저장 되어 있다.
 
+* 001.xml
+
+```xml
+<annotation>
+	<folder>images</folder>
+	<filename>001.jpg</filename>
+	<path>C:\AI_Omniwheel\detect1_dataset\images\001.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2717</width>
+		<height>4076</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>animal</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4</xmin>
+			<ymin>1034</ymin>
+			<xmax>2717</xmax>
+			<ymax>4074</ymax>
+		</bndbox>
+	</object>
+</annotation>
+
+```
+
+* 088.xml
+
+```xml
+<annotation>
+	<folder>images</folder>
+	<filename>088.jpg</filename>
+	<path>C:\AI_Omniwheel\detect1_dataset\images\088.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3974</width>
+		<height>5000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5</xmin>
+			<ymin>315</ymin>
+			<xmax>3974</xmax>
+			<ymax>4997</ymax>
+		</bndbox>
+	</object>
+</annotation>
+
+```
 
 (21) 'detc_class.txt' 파일을 생성한다. 'detect_class.txt'  파일에는 데이터 오노테이션 과정에서 사용한 레이블을 목록으로 작성한다. 어노테이션에서 사용한 레이블과 다르게 입력될 경우 다음('학습 데이터 제작하기')에서 에러가 발생한다.
 
