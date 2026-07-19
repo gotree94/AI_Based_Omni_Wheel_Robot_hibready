@@ -192,7 +192,9 @@
 
 ![](1007.png)
 
+<p align="center">
 <img src="021.png" width ="30%"> <img src="022.png" width ="26%">
+</p>
 
 ![](1008.png)
 
