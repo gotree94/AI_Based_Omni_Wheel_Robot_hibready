@@ -18,11 +18,11 @@ https://blog-ko.superb-ai.com/object-tracking-technology-for-video-analysis/
 [그림2] 자동차 객체 추적
 
 
-* 
+* 다른 방법으로 사용 예는 Object Tracking Line Counting 기술이다. [그림 3]과 같이 감지된 객체를 추적하여 입력된 기준선에 적용하여 감지된 객체(차량)이 기준선에 근접하거나 기준선을 지나칠 경우를 영상의 각 프레임별 데이터를 입력 받아 비교하여 숫자를 증가, 감소시키는 방법으로 사용이 가능하다.
 
 ![](028.png)
 
 [그림 3] 객체 기준선 감지 카운팅
-https://www.youtube.com/watch?v=f6Ad2FMyYcM
+* https://www.youtube.com/watch?v=f6Ad2FMyYcM
 
 
