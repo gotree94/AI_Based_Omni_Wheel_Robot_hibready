@@ -6,7 +6,9 @@
 
 * 사람과 동물 데이터를 각가 60장씩 수집합니다.
 
-<img src="11.jpg" width ="15%"> <img src="14.jpg" width ="30%"> 
+<p align="center">
+<img src="11.jpg" width ="15%"> <img src="14.jpg" width ="33%"> 
+</p>
 
 ![](001.png)
 
