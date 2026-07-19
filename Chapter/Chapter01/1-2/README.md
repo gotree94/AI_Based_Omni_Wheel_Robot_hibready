@@ -583,19 +583,20 @@ while(True) :
 * 이미지가 없는 경우 프로그램을 종료한다.
 
 ```
-
+if(image is None)
+	break
 ```
 
 * 'execute()'함수로 'image'에 대한 객체감지 추론을 실행한다.
 
 ```
-
+obj_model.execute(image)
 ```
 
 * 'getResultImage()' 함수를 사용하여 추론 결과를 'result_image' 변수에 저장한다.
 
 ```
-
+result_image = obj_model.getResultImage()
 ```
 
 
@@ -604,21 +605,23 @@ while(True) :
 * ('result_image'의 첫 번째 데이터 '[0]'은 객체감지 추론성공 여부 '[True]'를 가지고 있으므로 넘겨 주지 않는다.)
 
 ```
-
+image_widget.value = cv2.imencode("jpeg", redule_image)[1].tostring()
 ```
 
 
 * jetson 보드에 시스템 과부하를 막기 위해 0.01초의 시간을 지연시킨다.
 
 ```
-
+	time.sleep(0.01)
 ```
 
 * 키보드 인터럽트(Ctrl+C)가 발생하면 실행된다.
 * print() 함수를 이용해 종료를 출력한 뒤 프로그램을 종료한다.
 
 ```
-
+except KeyboardInterrupt:
+	print("종료")
+	break
 ```
 
 
