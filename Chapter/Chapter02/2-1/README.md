@@ -6,7 +6,7 @@
 
 | 영상 분석(CCTV)  |  자율 주행 | 스포츠 & 게임 |
 |:-------:|:-------:|:-------:|
-| <img src="001.png" width="50%"> |  ![](002.png) | ![](003.png) | 
+| ![](001.png) |  ![](002.png) | ![](003.png) | 
 
 https://blog-ko.superb-ai.com/object-tracking-technology-for-video-analysis/
 
